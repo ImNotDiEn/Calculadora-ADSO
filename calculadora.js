@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', function () {
         addToHistory(`${firstOperand} ${operator} ${currentInput} = ${result}`);
         display.value = result;
         firstOperand = result;
-        currentInput = '';
+        currentInput = '0';
         operator = null;
     }
 
